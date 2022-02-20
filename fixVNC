@@ -1,4 +1,11 @@
-apt-get install lxde
+#install tightvnc
+sudo apt install tightvncserver
+
+#install gui
+apt-get install lxde -y
+
+#change the file permission
+chmod +x ~/.vnc/xstartup
 
 #Edit the xstarup file 
 nano .vnc/xstartup
