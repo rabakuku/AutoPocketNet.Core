@@ -1,0 +1,7 @@
+apt-get install lxde
+
+#Edit the xstarup file 
+nano .vnc/xstartup
+
+#add the following lines:
+/usr/bin/startlxde
