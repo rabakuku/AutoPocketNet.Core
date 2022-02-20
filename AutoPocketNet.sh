@@ -5,8 +5,6 @@ pause 2s
 echo "Installing the Ubuntu GUI"
 pause 2s
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal -y
-
 
 echo "Downloading and installing .deb"
 pause 2s
