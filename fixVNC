@@ -1,5 +1,5 @@
 #install tightvnc
-sudo apt install tightvncserver
+sudo apt install tightvncserver -y
 
 #install gui
 apt-get install lxde -y
