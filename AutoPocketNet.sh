@@ -19,9 +19,12 @@ cd ~/.pocketcoin/checkpoints
 wget https://github.com/pocketnetteam/pocketnet.core/releases/latest/download/main.sqlite3
 cd ~
 
+echo "downloading pocketcoin.conf"
+wget https://raw.githubusercontent.com/rabakuku/AutoPocketNet.Core/main/pocketcoin.conf -O ~/.pocketcoin/pocketcoin.conf
+
+
 echo "dowloading and unziping the blockchain"
 pause 2s
-
 cd ~/.pocketcoin
 rm -r blocks
 rm -r chainstate
@@ -29,9 +32,6 @@ rm -r indexes
 rm -r pocketdb
 wget https://snapshot.pocketnet.app/latest.tgz
 tar -xzf latest.tgz -C ./
-
-echo "downloading pocketcoin.conf"
-wget https://raw.githubusercontent.com/rabakuku/AutoPocketNet.Core/main/pocketcoin.conf -O ~/.pocketcoin/pocketcoin.conf
 
 echo "rm latest.tgz"
 pause 2s
