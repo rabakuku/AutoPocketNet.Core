@@ -13,9 +13,9 @@ sudo dpkg -i pocketnetcore_*_linux_x64_setup.deb
 
 echo "Making the directories"
 pause 2s
-mkdir ~/.pocketcoin
-mkdir ~/.pocketcoin/checkpoints
-cd ~/.pocketcoin/checkpoints
+mkdir /root/.pocketcoin
+mkdir /root/.pocketcoin/checkpoints
+cd /root/.pocketcoin/checkpoints
 wget https://github.com/pocketnetteam/pocketnet.core/releases/latest/download/main.sqlite3
 cd ~
 
@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/rabakuku/AutoPocketNet.Core/main/pocketco
 
 echo "dowloading and unziping the blockchain"
 pause 2s
-cd ~/.pocketcoin
+cd /root/.pocketcoin
 rm -r blocks
 rm -r chainstate
 rm -r indexes
@@ -35,7 +35,7 @@ tar -xzf latest.tgz -C ./
 
 echo "rm latest.tgz"
 pause 2s
-rm ~/.pocketcoin/latest.tgz
+rm /root/.pocketcoin/latest.tgz
 echo "completed"
 pause 2s
 
