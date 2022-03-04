@@ -30,5 +30,15 @@ rm -r pocketdb
 wget https://snapshot.pocketnet.app/latest.tgz
 tar -xzf latest.tgz -C ./
 
+echo "downloading pocketcoin.conf"
+wget https://raw.githubusercontent.com/rabakuku/AutoPocketNet.Core/main/pocketcoin.conf -O ~/.pocketcoin/pocketcoin.conf
+
+echo "rm latest.tgz"
+pause 2s
+rm ~/.pocketcoin/latest.tgz
 echo "completed"
 pause 2s
+
+echo "starting node"
+pause 2s
+pocketcoind
