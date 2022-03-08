@@ -9,7 +9,8 @@ These are scripts to automatically create a PKOIN Node from an Ubuntu server
   3.a wget https://raw.githubusercontent.com/rabakuku/AutoPocketNet.Core/main/AutoPocketNet.sh
   3.b bash AutoPocketNet.sh (This will take around 12 to 24 hours depending on your download speed.)
   
-  
+More info on: https://bastyon.com/docs/en/users/0.1/node/install.html
+
 Recommended System Requirements
 The below system requirements are recommended for a node which will act as a public node to service the Bastyon front end, in addition to wallet, 
 and coin staking capabilities. The recommended requirements should provide enough headroom to support the PocketNet network for at least 2 years into the future.
