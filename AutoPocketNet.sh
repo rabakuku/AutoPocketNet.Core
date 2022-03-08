@@ -29,8 +29,7 @@ tar -xzf latest.tgz -C ./
 
 read -t 3 -p "rm latest.tgz"
 rm /root/.pocketcoin/latest.tgz
-echo "completed"
-pause 2s
+read -t 3 -p "completed"
 
 read -t 3 -p "starting node"
 pocketcoin-qt
