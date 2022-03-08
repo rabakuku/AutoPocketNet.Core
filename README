@@ -9,6 +9,12 @@ These are scripts to automatically create a PKOIN Node from an Ubuntu server
   3.a wget https://raw.githubusercontent.com/rabakuku/AutoPocketNet.Core/main/AutoPocketNet.sh
   3.b bash AutoPocketNet.sh (This will take around 12 to 24 hours depending on your download speed.)
   
+4. disable put to sleep and blank after
+  4.a go to Applications > Settings > Power Manager
+    4.a.1 Blank after = never
+    4.a.2 Put to sleep after = never
+    4.a.3 Switch off after = never
+  
 More info on: https://bastyon.com/docs/en/users/0.1/node/install.html
 
 Recommended System Requirements
