@@ -9,7 +9,7 @@ wget https://github.com/pocketnetteam/pocketnet.core/releases/download/v0.20.19/
 sudo dpkg -i pocketnetcore_*_linux_x64_setup.deb
 
 
-read -t 20 -p "starting daemon with new version"
+read -t 30 -p "starting daemon with new version"
 pocketcoind -daemon
 
 read -t 40 -p "verifying it is running"
