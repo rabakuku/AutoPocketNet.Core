@@ -10,7 +10,7 @@ sudo dpkg -i pocketnetcore_*_linux_x64_setup.deb
 
 
 read -t 20 -p "starting daemon with new version"
-pockecoind -daemon
+pocketcoind -daemon
 
-read -t 3 -p "verifying it is running"
+read -t 40 -p "verifying it is running"
 pocketcoin-cli getstakinginfo
