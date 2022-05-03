@@ -32,4 +32,4 @@ rm /root/.pocketcoin/latest.tgz
 read -t 3 -p "completed"
 
 read -t 3 -p "starting node"
-pocketcoin-qt
+pocketcoind -daemon
