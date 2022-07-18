@@ -1,4 +1,4 @@
-read -t 3 -p "Stopping old version"
+read -t 60 -p "Stopping old version"
 pocketcoin-cli stop
 
 read -t 3 -p "Deleting old version"
