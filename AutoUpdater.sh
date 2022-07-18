@@ -9,8 +9,8 @@ wget https://github.com/pocketnetteam/pocketnet.core/releases/download/v0.20.25/
 sudo dpkg -i pocketnetcore_*_linux_x64_setup.deb
 
 
-read -t 40 -p "starting daemon with new version"
+read -t 15 -p "starting daemon with new version"
 pocketcoind -daemon
 
-read -t 60 -p "verifying it is running"
+read -t 130 -p "verifying it is running"
 pocketcoin-cli getstakinginfo
