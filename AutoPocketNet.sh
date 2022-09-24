@@ -4,7 +4,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 
 read -t 3 -p "Downloading and installing .deb"
-wget https://github.com/pocketnetteam/pocketnet.core/releases/download/0.20.26/pocketnetcore_0.20.26_linux_x64_setup.deb --no-check-certificate
+wget https://github.com/pocketnetteam/pocketnet.core/releases/download/0.20.27/pocketnetcore_0.20.27_linux_x64_setup.deb --no-check-certificate
 sudo dpkg -i pocketnetcore_*_linux_x64_setup.deb
 
 read -t 3 -p "Making the directories"
